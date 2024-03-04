@@ -1,0 +1,11 @@
+
+data_source_collector:
+    start:
+        receber_source
+        transformar
+        filtrar
+        salvar
+    receber_source:
+        mudar esse metedo
+    transformar_arquivo_df:
+        return df

@@ -11,3 +11,4 @@ Repositorio criado para armazenar todos os conteúdos realizados.
     Aula 07 - Funções em Python e Estrutura de Dados - Parte 1
     Aula 08 - Funções em Python - ETL com Pandas, JSON e Parquet - Parte 2
     Aula 09 - Usando LOG
+    Aula 10 - Programação Orientada a Objetos (OOP) versus Progração Funcional
