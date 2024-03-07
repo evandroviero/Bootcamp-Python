@@ -1,6 +1,8 @@
 import os
 import pandas as pd
 from file_source import FileSource
+import chardet
+import csv
 
 class CsvSource(FileSource):
     
@@ -17,8 +19,22 @@ class CsvSource(FileSource):
         if new_files:
             print(f'New files detected: {new_files}')
             self.previous_files = current_files
+            self.transform_data_to_df()
         else:
             print('No new files detected.')
+
+    def transform_data_to_df(self):
+        for i in  self.previous_files:
+            file = self.folder_path + '/' +i
+            encoding = self.detect_encoding(file)
+            _ = pd.read_csv(file, encoding=encoding)
+            print(_)
+
+    def detect_encoding(self, filename: str) -> str:
+        with open(filename, 'rb') as file:
+            raw_data = file.read(1024)
+        result = chardet.detect(raw_data)
+        return result['encoding']
     
     
     
