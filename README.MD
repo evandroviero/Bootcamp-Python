@@ -18,3 +18,6 @@ Repositorio criado para armazenar todos os conteúdos realizados.
     Aula 14 - Herança e Polimorfismo - Parte 2
     Aula 15 - Criando nosso DuckDb
     Aula 16 - Revisão de POO
+    Aula 17 - Pendente
+    Aula 18 - Pendente
+    Aula 19 - Fazendo nossa API
