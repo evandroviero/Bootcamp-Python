@@ -21,3 +21,4 @@ Repositorio criado para armazenar todos os conteúdos realizados.
     Aula 17 - Pendente
     Aula 18 - Pendente
     Aula 19 - Fazendo nossa API
+        https://github.com/lvgalvao/crud-fastapi-postgres-streamlit
