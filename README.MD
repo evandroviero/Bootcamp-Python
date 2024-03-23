@@ -21,4 +21,5 @@ Repositorio criado para armazenar todos os conteúdos realizados.
     Aula 17 - SQLAlchemy - Conjunto de ferramentas para manipular SQL
     Aula 18 - API - Conjunto de ferramentas para manipular SQL
     Aula 19 - Fazendo nossa API
-        https://github.com/lvgalvao/crud-fastapi-postgres-streamlit
+    Aula 20 - CRUD FASTAPI POSTGRES STREAMLIT
+        
